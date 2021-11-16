@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.WebMVC", "GreenLava.WebMVC\GreenLava.WebMVC.csproj", "{8FABAB8F-F1C4-4BE8-9427-EF4DDF0DB247}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.Data", "GreenLava.Data\GreenLava.Data.csproj", "{4BB74BB0-8BDC-497D-BD02-9479A8A80D76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.Models", "GreenLava.Models\GreenLava.Models.csproj", "{A848E17F-50A1-4116-AB43-C9C066E15857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.Services", "GreenLava.Services\GreenLava.Services.csproj", "{47F263CC-555D-490A-B06B-774710928743}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.Contracts", "GreenLava.Contracts\GreenLava.Contracts.csproj", "{BD8134F4-A0DA-4918-8711-E8AE42801F18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GreenLava.Tests", "GreenLava.Tests\GreenLava.Tests.csproj", "{9DA774F7-3B6E-48A8-A0D0-69E89F266EB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8FABAB8F-F1C4-4BE8-9427-EF4DDF0DB247}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FABAB8F-F1C4-4BE8-9427-EF4DDF0DB247}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FABAB8F-F1C4-4BE8-9427-EF4DDF0DB247}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FABAB8F-F1C4-4BE8-9427-EF4DDF0DB247}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB74BB0-8BDC-497D-BD02-9479A8A80D76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB74BB0-8BDC-497D-BD02-9479A8A80D76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB74BB0-8BDC-497D-BD02-9479A8A80D76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB74BB0-8BDC-497D-BD02-9479A8A80D76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A848E17F-50A1-4116-AB43-C9C066E15857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A848E17F-50A1-4116-AB43-C9C066E15857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A848E17F-50A1-4116-AB43-C9C066E15857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A848E17F-50A1-4116-AB43-C9C066E15857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47F263CC-555D-490A-B06B-774710928743}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47F263CC-555D-490A-B06B-774710928743}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47F263CC-555D-490A-B06B-774710928743}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47F263CC-555D-490A-B06B-774710928743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD8134F4-A0DA-4918-8711-E8AE42801F18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD8134F4-A0DA-4918-8711-E8AE42801F18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD8134F4-A0DA-4918-8711-E8AE42801F18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD8134F4-A0DA-4918-8711-E8AE42801F18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA774F7-3B6E-48A8-A0D0-69E89F266EB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA774F7-3B6E-48A8-A0D0-69E89F266EB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA774F7-3B6E-48A8-A0D0-69E89F266EB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA774F7-3B6E-48A8-A0D0-69E89F266EB9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F0790D5-B643-4A8E-9DB3-470D2339A41F}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,83 @@
+﻿@model IEnumerable<GreenLava.Models.DrinkListItem>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+
+<div class="row row-cols-1 row-cols-md-2 g-4">
+    @foreach (var item in Model)
+    {
+        <div class="col">
+            <div class="card">
+               <img src="~/Images/depositphotos_29743969-stock-photo-healthy-green-juice.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">@Html.DisplayFor(modelItem => item.Name)</h5>
+                    <p class="card-text">@Html.DisplayFor(modelItem => item.Recipes)</p>
+                    <p class="card-text"> @Html.DisplayFor(modelItem => item.AverageCost)</p>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.DrinkId }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.DrinkId }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.DrinkId })
+
+                </div>
+            </div>
+        </div>
+    }
+</div>
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DrinkId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.ShortDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Recipes)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AverageCost)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsPreferredDrinks)
+        </th>        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DrinkId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Name)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.ShortDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Recipes)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AverageCost)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsPreferredDrinks)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new {  id=item.DrinkId }) |
+            @Html.ActionLink("Details", "Details", new { id=item.DrinkId }) |
+            @Html.ActionLink("Delete", "Delete", new {  id=item.DrinkId})
+        </td>
+    </tr>
+}
+
+</table>
